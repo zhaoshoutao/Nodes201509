@@ -12,7 +12,7 @@
 
     window.onscroll = scrollMove;
 
-    function scrollInit(selector, duration) {
+    function scrollInit(selector, duration) {		
         duration = duration || 1000;
         curEle = document.getElementById(selector);
         curEle.onclick = function () {
