@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
     //->getCss:获取当前元素的某一个样式属性的值
     function getCss(curEle, attr) {
         var val = reg = null;
